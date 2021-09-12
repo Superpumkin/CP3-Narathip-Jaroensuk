@@ -4,7 +4,7 @@ price_List = []
 
 def showBill() :
     totalPrice = 0
-    print("--------- nshop -----------")
+    print("--------- My Food -----------")
     for number in range(len(menu_List)) :
         print(menu_List[number],price_List[number],"THB")
         totalPrice += int(price_List[number])
